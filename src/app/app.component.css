@@ -1,0 +1,67 @@
+.search_form {
+    margin: 0;
+}
+.search_form {
+    display: flex;
+}
+.search_form .form-control {
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    width: auto;
+    min-width: unset;
+}
+.form-control {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+button, input {
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button:not(:disabled),[type="button"]:not(:disabled),[type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+.search_form button {
+    width: 45px;
+    min-width: 45px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #f3c93e;
+    border-radius: 0 5px 5px 0;
+}
+button,[type="button"], [type="submit"] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    transition: all 0.5s ease;
+}
+.navbar ul li a:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 0 10px orange;
+}
